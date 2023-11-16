@@ -1,7 +1,7 @@
 import time
 import selenium.webdriver.common.by
 import pytest
-link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/"
+link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
 def test_page_item_button_is_visible(browser):
